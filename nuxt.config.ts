@@ -8,12 +8,7 @@ export default defineNuxtConfig({
     },
   },
   css: ['@/assets/scss/main.scss'],
-  modules: [
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/google-fonts',
-    'nuxt-headlessui',
-    "@nuxt/image"
-  ],
+  modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts', 'nuxt-headlessui', '@nuxt/image'],
   eslint: {
     lintOnStart: false,
     formatter: 'visualstudio',
