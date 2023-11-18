@@ -29,17 +29,4 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  nitro: {
-    awsAmplify: {
-      imageOptimization: { path: '/_amplify/image', cacheControl: 'public, max-age=3600, immutable' },
-      imageSettings: {
-        sizes: [100, 200, 1920],
-        domains: ['images.unsplash.com'],
-        remotePatterns: [],
-        formats: ['image/jpeg', 'image/png', 'image/webp', 'image/avif'],
-        minimumCacheTTL: 60,
-        dangerouslyAllowSVG: false,
-      },
-    },
-  },
 });
