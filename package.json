@@ -30,9 +30,6 @@
     "tailwindcss": "^3.3.5",
     "typescript": "^5.1.6"
   },
-  "resolutions": {
-    "nitropack": "npm:nitropack-nightly@2.8.0-28335617.0f38eb6"
-  },
   "engines": {
     "node": ">=16.10.0",
     "yarn": ">=1.22.0 <2.0.0"
